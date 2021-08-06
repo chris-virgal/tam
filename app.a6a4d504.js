@@ -36569,9 +36569,9 @@ var Autocomplete = /*#__PURE__*/function () {
   _createClass(Autocomplete, [{
     key: "_registerClient",
     value: function _registerClient() {
-      this._searchClient = (0, _algoliasearch.default)('VYLEWMPKEZ', '8940a18fde155adf3f74b0912c267aa4');
+      this._searchClient = (0, _algoliasearch.default)('VTWN9LBTBB', '374b76e5ea3101f81afb7aa69ff9515e');
       this._searchInstance = (0, _instantsearch.default)({
-        indexName: 'ecommerce-v2',
+        indexName: 'test Chris',
         searchClient: this._searchClient
       });
     }
@@ -36616,7 +36616,7 @@ exports.default = _default;
 },{"algoliasearch":"node_modules/algoliasearch/src/browser/builds/algoliasearch.js","instantsearch.js":"node_modules/instantsearch.js/es/index.js","instantsearch.js/es/widgets":"node_modules/instantsearch.js/es/widgets/index.js","../templates/autocomplete-product":"src/templates/autocomplete-product.js"}],"src/app.js":[function(require,module,exports) {
 "use strict";
 
-var _autocomplete = _interopRequireDefault(require("./components/autocomplete"));
+var _autocomplete = _interopRequireDefault(require("./components/autocomplete.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36658,7 +36658,7 @@ var SpencerAndWilliamsSearch = /*#__PURE__*/function () {
 }();
 
 var app = new SpencerAndWilliamsSearch();
-},{"./components/autocomplete":"src/components/autocomplete.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./components/autocomplete.js":"src/components/autocomplete.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -36686,7 +36686,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53042" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51560" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
