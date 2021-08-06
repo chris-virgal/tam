@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "https://chris-virgal.github.io/tam",
+  "type": "module",
   "scripts": {
     "start": "parcel index.html --port 3000",
     "build": "parcel build index.html",
@@ -21,10 +22,6 @@
     "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.4",
     "prettier": "1.16.4"
-  },
-  "alias": {
-    "components": "./src/components",
-    "assets": "./src/assets"
   },
   "dependencies": {
     "algoliasearch": "^3.35.1",
