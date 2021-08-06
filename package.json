@@ -22,6 +22,10 @@
     "parcel-bundler": "^1.12.4",
     "prettier": "1.16.4"
   },
+  "alias": {
+    "components": "./src/components",
+    "assets": "./src/assets"
+  },
   "dependencies": {
     "algoliasearch": "^3.35.1",
     "instantsearch.js": "^4.0.0"
