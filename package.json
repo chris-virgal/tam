@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "babel-eslint": "10.0.2",
